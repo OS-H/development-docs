@@ -3,6 +3,7 @@ export default {
   base: "/vitepress-docs",
   // 指定静态资源文件夹的位置。
   assetsDir: "assets",
+  dest: "public",
 
   title: '开发文档',
   // build: {
