@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,N as o}from"./chunks/framework.b47621f9.js";const _=JSON.parse('{"title":"传感器设备接入标准","description":"","frontmatter":{},"headers":[],"relativePath":"wulianjizuo/物联基座设备接入.md"}'),a={name:"wulianjizuo/物联基座设备接入.md"},n=o("",17),c=[n];function l(p,u,i,r,d,q){return s(),t("div",null,c)}const m=e(a,[["render",l]]);export{_ as __pageData,m as default};

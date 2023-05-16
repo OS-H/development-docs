@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as s,N as n}from"./chunks/framework.b47621f9.js";const I=JSON.parse('{"title":"业务系统接入","description":"","frontmatter":{},"headers":[],"relativePath":"shuzidizuo/业务系统接入.md"}'),t={name:"shuzidizuo/业务系统接入.md"},o=n("",14),i=[o];function p(l,r,c,d,h,u){return s(),e("div",null,i)}const C=a(t,[["render",p]]);export{I as __pageData,C as default};
