@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as e,N as o}from"./chunks/framework.719e9f09.js";const q=JSON.parse('{"title":"概述","description":"","frontmatter":{},"headers":[],"relativePath":"chajianhuaxitongdajian/插件开发.md"}'),t={name:"chajianhuaxitongdajian/插件开发.md"},n=o("",11),c=[n];function l(p,i,r,u,d,h){return e(),s("div",null,c)}const C=a(t,[["render",l]]);export{q as __pageData,C as default};

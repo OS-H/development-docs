@@ -1,6 +1,6 @@
 export default {
   // 指定站点根路径，例如 "/my-site"。
-  base: "/vitepress-docs",
+  base: "/development-docs/",
   // 指定静态资源文件夹的位置。
   assetsDir: "assets",
 
@@ -18,6 +18,10 @@ export default {
   //   }
   // }
   themeConfig: {
+    repo: 'OS-H/development-docs',
+    editLinks: true,
+    editLinkText: '编辑文档',
+
     siteTitle: "开发文档",
     // nav: [
     //   { text: '指南', link: '/getting-started', activeMatch: '/guide' },
