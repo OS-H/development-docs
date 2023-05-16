@@ -20,6 +20,7 @@ export default {
   themeConfig: {
     repo: 'OS-H/development-docs',
     docsDir: 'docs',
+    docsBranch: 'test-github',
     editLinks: true,
     editLinkText: '编辑文档',
 
