@@ -19,6 +19,7 @@ export default {
   // }
   themeConfig: {
     repo: 'OS-H/development-docs',
+    docsDir: 'docs',
     editLinks: true,
     editLinkText: '编辑文档',
 
