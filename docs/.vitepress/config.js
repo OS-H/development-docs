@@ -37,8 +37,8 @@ export default {
       {
         text: '物联基座',
         items: [
-          { text: '物联基座设备接入', link: '/wulianjizuo/物联基座设备接入' },
-          { text: '物联基座网关接入', link: '/wulianjizuo/物联基座网关接入' },
+          // { text: '物联基座设备接入', link: '/wulianjizuo/物联基座设备接入' },
+          // { text: '物联基座网关接入', link: '/wulianjizuo/物联基座网关接入' },
         ],
         collapsible: true,
         collapsed: true
@@ -46,7 +46,15 @@ export default {
       {
         text: '数字底座',
         items: [
-          { text: '业务系统接入', link: '/shuzidizuo/业务系统接入' },
+          { text: '数字底座接入文档', link: '/shuzidizuo/数字底座接入文档' },
+        ],
+        collapsible: true,
+        collapsed: true
+      },
+      {
+        text: 'AI引擎',
+        items: [
+          { text: 'AI引擎接入文档', link: '/AI/AI引擎接入文档' },
         ],
         collapsible: true,
         collapsed: true
@@ -54,15 +62,7 @@ export default {
       {
         text: '数字孪生引擎',
         items: [
-          { text: '数字孪生引擎接入', link: '/shuziluanshengyinqing/数字孪生引擎接入' },
-        ],
-        collapsible: true,
-        collapsed: true
-      },
-      {
-        text: '物联低代码开放应用平台基座',
-        items: [
-          // { text: 'Getting Started', link: '/wuliandidaima' },
+          // { text: '数字孪生引擎接入', link: '/shuziluanshengyinqing/数字孪生引擎接入' },
         ],
         collapsible: true,
         collapsed: true
@@ -78,7 +78,13 @@ export default {
       {
         text: '插件化系统搭建',
         items: [
-          { text: '插件开发', link: '/chajianhuaxitongdajian/插件开发' },
+          { text: '插件化架构', link: '/chajianhuaxitongdajian/插件化架构' },
+          { text: '缓存插件', link: '/chajianhuaxitongdajian/purpose_module-main/缓存组件/缓存插件' },
+          { text: '时空引擎插件', link: '/chajianhuaxitongdajian/purpose_module-main/时空引擎组件/时空引擎插件' },
+          { text: '数据库插件', link: '/chajianhuaxitongdajian/purpose_module-main/数据库组件/数据库插件' },
+          { text: '搜索引擎插件', link: '/chajianhuaxitongdajian/purpose_module-main/搜索引擎组件/搜索引擎插件' },
+          { text: '文件存储插件', link: '/chajianhuaxitongdajian/purpose_module-main/文件存储组件/文件存储插件' },
+          { text: '消息引擎插件', link: '/chajianhuaxitongdajian/purpose_module-main/消息引擎组件/消息引擎插件' },
         ],
         collapsible: true,
         collapsed: true
