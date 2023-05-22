@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as t,N as n}from"./chunks/framework.719e9f09.js";const D=JSON.parse('{"title":"AI引擎接入文档","description":"","frontmatter":{},"headers":[],"relativePath":"AI/AI引擎接入文档.md"}'),o={name:"AI/AI引擎接入文档.md"},l=n("",185),p=[l];function e(r,c,i,d,u,y){return t(),a("div",null,p)}const h=s(o,[["render",e]]);export{D as __pageData,h as default};

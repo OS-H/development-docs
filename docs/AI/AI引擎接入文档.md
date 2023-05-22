@@ -58,7 +58,7 @@ AI引擎平台是面向人工智能研究中的数据处理、模型训练等各
 
 | 基本        |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficModel/insert](http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/insert) |
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/insert` |
 | HTTP Method | POST                                                         |
 
 ### 请求头
@@ -99,7 +99,7 @@ AI引擎平台是面向人工智能研究中的数据处理、模型训练等各
 
 | 基本        |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficUpload/](http://localhost:6083/roadDetectionV2/highSpeedTrafficUpload/)initDataset |
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficUpload/initDataset` |
 | HTTP Method | POST                                                         |
 
 ### 请求头
@@ -152,7 +152,7 @@ true or false
 
 | 基本        |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficUpload/](http://localhost:6083/roadDetectionV2/highSpeedTrafficUpload/)updateDataset |
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficUpload/updateDataset` |
 | HTTP Method | POST                                                         |
 
 ### 请求头
@@ -187,7 +187,7 @@ true or false
 
 | 基本        |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficUpload/](http://localhost:6083/roadDetectionV2/highSpeedTrafficUpload/)getSourceDatasetList |
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficUpload/getSourceDatasetList` |
 | HTTP Method | POST                                                         |
 
 ### 请求头
@@ -220,7 +220,7 @@ true or false
 
 | 基本        |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficModel/](http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/)update |
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/update` |
 | HTTP Method | POST                                                         |
 
 ### 请求头
@@ -253,7 +253,7 @@ true
 
 | 基本        |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficModel/](http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/)getModelList |
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/getModelList` |
 | HTTP Method | POST                                                         |
 
 无需请求头
@@ -276,7 +276,7 @@ true
 
 | 基本        |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficModel/](http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/)update |
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/update` |
 | HTTP Method | POST                                                         |
 
 ### 请求头
@@ -335,10 +335,10 @@ true
 
 ### 请求
 
-| 基本        |                                                              |
-| ----------- | ------------------------------------------------------------ |
-| HTTP URL    | [localhost:6083/roadDetectionV2/highSpeedTrafficModel/](http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/)modelTrain |
-| HTTP Method | POST                                                         |
+| 基本        |                                                                        |
+| ----------- |------------------------------------------------------------------------|
+| HTTP URL    | `http://localhost:6083/roadDetectionV2/highSpeedTrafficModel/modelTrain` |
+| HTTP Method | POST                                                                   |
 
 ### 请求头
 
@@ -619,6 +619,6 @@ val_coda: "conda activate myEnv && cd /home/Project && python valid.py --ckpt_pa
 #### 日志打印
 
 用户点击一键训练以后，会实时打印出训练日志，后台通过webSocket把日志信息发送到前端进行展示
-前端客户端发送 ws://ip:58090/webSocket 连接到webSocket服务上
+前端客户端发送 `ws://<your ip address>:58090/webSocket` 连接到webSocket服务上
 后台代码使用 tail -f 命令实时读取日志，每一行日志会发送一个wenSocket给前端
 
