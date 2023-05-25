@@ -6,18 +6,9 @@ export default {
   dest: "public",
 
   title: '开发文档',
-  // build: {
-  //   rollupOptions: {
-  //     output: {
-  //       // 指定输出文件名的格式为 UTF-8
-  //       chunkFileNames: '[name]-[hash].js',
-  //       entryFileNames: '[name].js',
-  //       assetFileNames: '[name]-[hash][extname]',
-  //       // 指定生成代码的字符集为 UTF-8
-  //       encoding: 'utf-8'
-  //     }
-  //   }
-  // }
+  markdown: {
+    anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: '#', level: [2,3,4] }
+  },
   themeConfig: {
     siteTitle: "开发文档",
     // nav: [
@@ -37,8 +28,8 @@ export default {
       {
         text: '物联基座',
         items: [
-          // { text: '物联基座设备接入', link: '/wulianjizuo/物联基座设备接入' },
-          // { text: '物联基座网关接入', link: '/wulianjizuo/物联基座网关接入' },
+          { text: '物联基座网关接入', link: '/wulianjizuo/物联基座网关接入' },
+          { text: '物联网设备对接协议', link: '/wulianjizuo/物联网设备对接协议' },
         ],
         collapsible: true,
         collapsed: true

@@ -1,5 +1,11 @@
 /* 默认主题 CSS 是可以通过覆盖根级 CSS 变量来定制的 */
 :root {
   /* sidebar右移 */
-  --vp-layout-max-width: 1920px;
+  /* --vp-layout-max-width: 1920px; */
 }
+/* .VPSidebar {
+  min-width: 280px;
+}
+.VPNavBar.has-sidebar .title {
+  min-width: 80px;
+} */
